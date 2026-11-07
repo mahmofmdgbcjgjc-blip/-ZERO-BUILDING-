@@ -1,60 +1,117 @@
-# ZERO Builder
+🔴 ZERO BUILDER
 
-ZERO Builder is a Windows desktop utility for building your own Python, C#, C++, and Batch files into executable `.exe` files.
+Professional Multi-Language Executable Builder
 
-## Download
+<p align="center">
+  <img src="screenshot.png" width="850" alt="ZERO Builder Preview">
+</p><p align="center">
+  <strong>BUILD • CONFIGURE • COMPILE</strong>
+</p>---
 
-Download the latest Windows executable from the **Releases** section of this repository:
+⚡ Overview
 
-```text
-Zero.exe
-```
+ZERO Builder is a Windows desktop application designed to simplify the process of compiling supported programming languages into standalone Windows executables.
 
-No source code is required to run the release build. The application may require .NET Framework and the relevant compiler/runtime tools depending on the selected language.
+Featuring a modern interface, configurable build options, and integrated build logging, ZERO Builder brings essential compilation workflows into one unified environment.
 
-## Interface preview
+✨ Key Features
 
-![ZERO Builder interface](screenshot.png)
+Feature| Description
+🐍 Python| Python executable compilation
+#️⃣ C#| C# compilation support
+⚙️ C++| C++ compilation support
+📦 Batch| Batch executable packaging
+🎨 Custom Icons| Assign custom application icons
+🗜️ UPX| Optional executable compression
+📝 Build Logs| Monitor compilation progress
+🔐 File Hashes| SHA-256 and SHA-512 verification
+🛠️ Build Modes| Release and Debug configurations
 
-## Features
+🖥️ Supported Languages
 
-- Python, C#, C++, and Batch build modes.
-- Custom output executable name.
-- Optional application icon.
+- Python
+- C#
+- C++
+- Windows Batch
+
+🏗️ Build Workflow
+
+flowchart TD
+    A["ZERO Builder"] --> B["Select Language"]
+    B --> C["Choose Source File"]
+    C --> D["Configure Options"]
+    D --> E["Start Build"]
+    E --> F["Compilation Process"]
+    F --> G["Build Verification"]
+    G --> H["Executable Output"]
+
+🚀 Getting Started
+
+1. Download the latest release.
+2. Extract the downloaded files if necessary.
+3. Launch "Zero.exe".
+4. Select your programming language.
+5. Choose your source file.
+6. Configure the available build settings.
+7. Start the build process.
+8. Review the build log and generated output.
+
+⚙️ Build Configuration
+
+ZERO Builder provides several configuration options:
+
+- Output executable naming.
+- Application icon selection.
 - Optional UPX compression.
-- Optional console-window hiding for supported builds.
-- Release and Debug build options.
-- AnyCPU, x86, and x64 platform options.
+- Release and Debug configurations.
+- Architecture selection where supported.
 - Optional build manifest.
-- SHA-256 and SHA-512 output hashes.
-- Live build log.
+- SHA-256 / SHA-512 hash generation.
 
-## Supported build tools
+🔧 Supported Build Tools
 
 Depending on the selected language, the application may use:
 
-- Python, PyArmor, and Nuitka.
-- .NET Framework C# compiler.
-- MinGW-w64 `g++` or Visual C++ `cl`.
-- Windows IExpress for Batch builds.
-- UPX, only when compression is enabled.
+Tool| Purpose
+Python| Python runtime
+Nuitka| Python compilation
+PyArmor| Python code protection
+.NET Framework Compiler| C# compilation
+MinGW-w64| C++ compilation
+Visual C++| C++ compilation
+UPX| Executable compression
 
-## Usage
+🛡️ Security Information
 
-1. Download `Zero.exe` from Releases.
-2. Select the source language.
-3. Select your source file.
-4. Choose the output name and build options.
-5. Optionally select an `.ico` file.
-6. Press **BUILD**.
-7. Check the build log and verify the generated hash when a manifest is enabled.
+ZERO Builder is a compilation utility, not an antivirus or security certification tool.
 
-## Security and legal notice
+- Always inspect source files before compiling.
+- Test generated executables in an isolated environment.
+- File hashes help verify file integrity.
+- Compression and code-protection features may trigger antivirus false positives.
+- Never distribute software without authorization.
 
-Use ZERO Builder only with software you own or are authorized to build and distribute. This project is not an antivirus-bypass tool, digital-signing service, or security product. The hash output verifies file integrity but does not prove that a file is safe.
+📋 Requirements
 
-UPX compression and Python obfuscation may trigger antivirus false positives. Test every generated executable before distribution.
+- Windows 10 / Windows 11.
+- Required language-specific compilers.
+- Relevant runtimes and dependencies.
+- Additional tools depending on selected build options.
 
-## Disclaimer
+⚠️ Disclaimer
 
-The author is not responsible for misuse of this software or for damage caused by executables created with it.
+ZERO Builder is intended for legitimate software development and authorized use only.
+
+The generated executable's behavior depends on its source code and selected build configuration.
+
+The project does not guarantee that generated executables are safe, undetectable, or free from vulnerabilities.
+
+---
+
+<p align="center">
+  <strong>ZERO BUILDER</strong>
+  <br>
+  BUILD WITH CONTROL.
+  <br><br>
+  Made by <strong>Kanha</strong>
+</p>
